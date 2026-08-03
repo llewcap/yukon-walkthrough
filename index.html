@@ -28,13 +28,13 @@
   .metric b{display:block;font-family:var(--mono);font-size:19px;color:var(--navy);font-variant-numeric:tabular-nums}
   .metric span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 
-  nav.toc{position:sticky;top:0;background:var(--navy);z-index:20;overflow-x:auto}
-  nav.toc .wrap{display:flex;gap:2px;padding:0 12px;justify-content:center;flex-wrap:wrap}
-  nav.toc a{color:#D7E0F0;text-decoration:none;font-size:12px;padding:9px 12px;white-space:nowrap}
+  nav.toc{position:sticky;top:0;background:var(--navy);z-index:20}
+  nav.toc .inner{display:flex;gap:4px;padding:0 16px;justify-content:center;align-items:center;max-width:1180px;margin:0 auto;overflow-x:auto;white-space:nowrap}
+  nav.toc a{color:#D7E0F0;text-decoration:none;font-size:12.5px;padding:11px 13px;white-space:nowrap;scroll-margin:0}
   nav.toc a:hover,nav.toc a:focus-visible{background:#2A4677;color:#fff;outline:none}
 
   main{max-width:1040px;margin:0 auto;padding:28px 20px 80px}
-  section{margin-bottom:16px;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+  section{margin-bottom:16px;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;scroll-margin-top:60px}
   .shead{background:var(--navy);color:#fff;padding:10px 18px;display:flex;justify-content:space-between;align-items:baseline}
   .shead h2{font-size:16px;font-weight:700}
   .shead .tag{font-size:10.5px;letter-spacing:.12em;color:#B9C6DE;text-transform:uppercase}
@@ -89,7 +89,7 @@
   </div>
 </div></header>
 
-<nav class="toc" aria-label="Sections"><div class="wrap">
+<nav class="toc" aria-label="Sections"><div class="inner">
   <a href="#s1">Overview</a><a href="#s2">TIF</a><a href="#s3">Bond</a><a href="#s4">Cap discipline</a>
   <a href="#s5">Land</a><a href="#s6">Incentives</a><a href="#s7">Portfolio</a><a href="#s8">Sources &amp; Uses</a>
   <a href="#s9">Calls &amp; distributions</a><a href="#s10">Exit &amp; waterfall</a><a href="#s11">Sensitivities</a><a href="#s12">Diligence status</a>
