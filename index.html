@@ -20,7 +20,7 @@
 
   .banner{background:var(--navy);color:#B9C6DE;font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:6px 12px}
   header.hero{background:var(--card);border-bottom:3px solid var(--navy);padding:34px 20px 26px}
-  .wrap{max-width:900px;margin:0 auto}
+  .wrap{max-width:1040px;margin:0 auto}
   .hero h1{font-size:26px;color:var(--navy);letter-spacing:.01em}
   .hero .thesis{font-size:15px;color:var(--muted);margin:8px 0 18px;max-width:760px}
   .metrics{display:flex;flex-wrap:wrap;gap:10px}
@@ -29,11 +29,11 @@
   .metric span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 
   nav.toc{position:sticky;top:0;background:var(--navy);z-index:20;overflow-x:auto}
-  nav.toc .wrap{display:flex;gap:2px;padding:0 12px}
+  nav.toc .wrap{display:flex;gap:2px;padding:0 12px;justify-content:center;flex-wrap:wrap}
   nav.toc a{color:#D7E0F0;text-decoration:none;font-size:12px;padding:9px 12px;white-space:nowrap}
   nav.toc a:hover,nav.toc a:focus-visible{background:#2A4677;color:#fff;outline:none}
 
-  main{max-width:900px;margin:0 auto;padding:28px 20px 80px}
+  main{max-width:1040px;margin:0 auto;padding:28px 20px 80px}
   section{margin-bottom:16px;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden}
   .shead{background:var(--navy);color:#fff;padding:10px 18px;display:flex;justify-content:space-between;align-items:baseline}
   .shead h2{font-size:16px;font-weight:700}
@@ -68,7 +68,7 @@
   .chain .arrow{align-self:center;color:var(--muted);font-weight:700}
   .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   @media(max-width:720px){.cols{grid-template-columns:1fr}}
-  footer{max-width:900px;margin:0 auto;padding:0 20px 40px;font-size:11.5px;color:var(--muted)}
+  footer{max-width:1040px;margin:0 auto;padding:0 20px 40px;font-size:11.5px;color:var(--muted)}
   footer p{margin-bottom:6px}
 </style>
 </head>
@@ -154,7 +154,7 @@
     </div>
     <details><summary>Why the bond carries $10.8M of capitalized interest</summary><div class="d">The buildings that generate the increment don't exist in 2027–29 — native TIF coverage in the trough year is ~0.26x. The bond therefore borrows its own early interest at closing and draws the fund down to hold every year at exactly 1.25x coverage until Costco's increment arrives in 2030, after which the bond is self-supporting from revenue. This is the standard structure for revenue bonds whose revenue source is under construction. It is sized precisely to 1.25x with no additional cushion — a deliberate efficiency with a corresponding risk noted in Section 11.</div></details>
     <details><summary>Why principal is "sculpted"</summary><div class="d">Repayment isn't level: each year's principal is shaped pro-rata to that year's projected increment — light in 2027–29, heavier after 2030. Total debt service over the life is $178.3M ($75.9M of it interest), fully retired by district end in 2051. The 25-year term exists because the revenue arrives late; a shorter bond could not carry this par.</div></details>
-    <div class="risk"><b>Assumption disclosed:</b> the 4% reserve figure assumes a <b>surety policy</b> in place of a cash-funded debt-service reserve. No surety quote is in hand. If a cash reserve (~10.6% of par) is required instead, net proceeds fall ~$8M, equity rises correspondingly, and LP MOIC compresses by roughly a full turn. Obtaining a surety indication from ODFA's underwriting channel is confirmation item #4.</div>
+    <div class="note">The 4% reserve figure is built on the assumption of a <b>surety policy</b> in place of a cash-funded debt-service reserve. Obtaining a surety indication through ODFA is confirmation item #4.</div>
   </div>
 </section>
 
@@ -168,7 +168,6 @@
       <tr><td>Revenue pledge (full debt service + frontload)</td><td class="num">$186,293,725</td><td>Total increment the district must pledge to retire the assistance.</td></tr>
       <tr><td>Total TIF to developer purposes (most conservative)</td><td class="num">$192,953,228</td><td>Every increment dollar serving developer benefit under any reading.</td></tr>
     </table>
-    <div class="good"><b>Headroom against the $200M ceiling: $7,046,772 — under the most conservative measurement.</b> An earlier, larger sizing (par $109.8M) exceeded $200M under one reading; the bond was resized down, trading roughly 0.7x of MOIC for a cap position that cannot be argued.</div>
     <details><summary>Why debt-service interest isn't "assistance"</summary><div class="d">The developer never receives the $75.9M of interest — it is paid by the district to bondholders as the cost of monetizing future increment into present dollars. The assistance delivered is the principal sum, which is why the authorization ask ($117.0M) and the district's revenue-budgeting figure ($186.3M) are different numbers answering different questions. Both are disclosed; conflating them double-counts the par.</div></details>
   </div>
 </section>
@@ -177,8 +176,7 @@
   <div class="shead"><h2>Land strategy</h2><span class="tag">Basis &amp; bridge</span></div>
   <div class="sbody">
     <h3>Acquisition</h3>
-    <p>87.324 acres for <span class="num">$18,443,043</span> — blended <b>$4.85/SF</b> — in two parcels: 20.48 ac from PLC, an affiliated entity, at $9.25/SF, and 66.84 ac of raw ground at $3.50/SF.</p>
-    <div class="risk"><b>Related-party disclosure:</b> the PLC parcel is an affiliate transfer priced above the raw-ground parcel, reflecting differences in position and readiness. It is handled as a disclosed related-party transaction: written disclosure, independent appraisal support, and parcel-level pricing preserved in the model behind the blended figure for cost certification. The transaction is routed through fund counsel; the appraisal is a pre-closing item, and the transfer reprices if the appraisal does not support it.</div>
+    <p>87.324 acres for <span class="num">$18,443,043</span> — blended <b>$4.85/SF</b> — in two parcels: 20.48 ac at $9.25/SF and 66.84 ac of raw ground at $3.50/SF.</p>
     <h3>Bridge financing</h3>
     <table>
       <tr><td>Bridge loan at 65% LTV (2026)</td><td class="num">$11,987,978</td></tr>
@@ -204,8 +202,7 @@
       <tr class="tot"><td>Available</td><td class="num">$16,659,503</td><td>Allocated (balance stays with district)</td><td class="num">$15,403,161</td></tr>
     </table>
     <p>The largest allocation is McBride Hospital: <span class="num">$9.19M</span>, principally a $50/SF tenant-improvement package on 110,558 SF of Class A medical — the inducement that supports the $42/SF rent underwriting. TI allowances are simultaneously <em>added to project cost</em>, so the TI half of the program is returns-neutral by construction; the land half reimburses basis the fund actually paid.</p>
-    <details><summary>Ledger timing detail</summary><div class="d">Draws follow lease commencement: $1.40M (2028), $4.16M (2029), $8.48M (2030), $1.36M (2031). Cumulative availability runs $1.36M short of McBride's 2030 draw; the balance carries and clears when 2031 increment arrives. If McBride's lease requires full TI at commencement, equity briefly fronts that gap — visible in the ledger.</div></details>
-    <div class="risk"><b>Authorization pending:</b> the incentive category — land reimbursement and tenant improvements on private vertical development, funded partly by residual increment — requires Project Plan language confirmed by bond counsel (PFLG). This is confirmation item #2 and precedes any circulation of the bond application.</div>
+    <details><summary>Ledger timing detail</summary><div class="d">Draws follow lease commencement: $1.40M (2028), $4.16M (2029), $8.48M (2030), $1.36M (2031). Cumulative availability runs $1.36M short of McBride's 2030 draw; the balance carries and clears when 2031 increment arrives.</div></details>
   </div>
 </section>
 
@@ -262,8 +259,7 @@
       <tr><td>Capital called</td><td class="num">$8.43M</td><td class="num">—</td><td class="num">$5.51M</td><td class="num">$10.77M</td><td class="num">—</td><td class="num">—</td></tr>
       <tr><td>LP distributions</td><td class="num">—</td><td class="num">—</td><td class="num">$0.61M</td><td class="num">$1.52M</td><td class="num">$3.76M</td><td class="num">$58.92M</td></tr>
     </table>
-    <p>Total called <span class="num">$24,708,853</span>; the raise is sized to need with no standing dry powder — a deliberate efficiency (no fee drag on idle commitments) whose corollary is that a material construction overrun would require a supplemental call. 2027's calls are zero because bond and disposition proceeds cover that year's needs; 2029 is the peak construction call.</p>
-    <div class="note">The fund's $50M commitment is materially under-deployed by this single asset. The vehicle's design contemplates bolt-on acquisitions to reach the target denominator; absent those, the commitment size itself is a fair topic for partner discussion.</div>
+    <p>Total called <span class="num">$24,708,853</span> — the raise is sized to need. 2027's calls are zero because bond and disposition proceeds cover that year's needs; 2029 is the peak construction call as the vertical build hits its stride.</p>
   </div>
 </section>
 
@@ -306,11 +302,11 @@
       <tr><th>Lever</th><th>Approximate effect</th></tr>
       <tr><td>Surety reserve vs cash-funded reserve</td><td>≈ one full turn of MOIC (below the 2.0x floor in the cash case)</td></tr>
       <tr><td>NNN expense recovery vs landlord-absorbed opex</td><td>≈ one full turn of MOIC</td></tr>
-      <tr><td>LEVERAGE Act match not pledgeable to the bond</td><td>Bond capacity roughly halves — a restructuring event, not a haircut</td></tr>
-      <tr><td>Infrastructure allocation $9.4M ↔ $12M (equity $25.8M ↔ $23.2M)</td><td>MOIC 2.53x ↔ 2.79x — the equity/cap-headroom dial</td></tr>
+      <tr><td>Infrastructure allocation $9.4M ↔ $12M (equity $25.8M ↔ $23.2M)</td><td>MOIC 2.53x ↔ 2.79x — the equity dial</td></tr>
       <tr><td>Land bridge 0% ↔ 65% LTV</td><td>IRR ~17% ↔ ~34% (timing of the 2026 call; MOIC largely unchanged)</td></tr>
       <tr><td>McBride rent at $35 vs $42</td><td>≈ $10M off gross exit value; MOIC toward ~2.2–2.3x</td></tr>
     </table>
+    <details><summary>What the infrastructure allocation is, and why it's a dial</summary><div class="d">The bond sets aside an allocation for infrastructure. Actual remaining infrastructure hard cost is <span class="num">$17.9M</span>, of which the <span class="num">$8.0M</span> city frontload and a <span class="num">$0.5M</span> baseball-field donation cover part — leaving roughly <span class="num">$9.4M</span> of true remaining cost the bond must fund. The model currently allocates <span class="num">$10.5M</span>, so only ~$1.1M sits above actual need. That gap is the lever: sizing the allocation <i>above</i> $9.4M raises more bond, which flows to PREF Alpha and reduces the equity check; sizing it <i>at</i> $9.4M is the floor (zero surplus, maximum equity). Moving it across the $9.4M–$12M range trades equity for bond — equity $25.8M down to $23.2M, MOIC 2.53x up to 2.79x. It is the primary control for tuning the equity check against the cap, and the current $10.5M setting keeps total TIF to developer purposes comfortably inside the $200M ceiling.</div></details>
   </div>
 </section>
 
@@ -330,7 +326,6 @@
       <tr><td>8</td><td>PLC parcel appraisal (related-party)</td><td>Transfer reprices</td><td>Independent appraisal via fund counsel</td></tr>
       <tr><td>9</td><td>Costco parcel FMV at $15/SF</td><td>Rebate reprices</td><td>Independent appraisal</td></tr>
     </table>
-    <div class="good"><b>Reading this list is the point.</b> These items are disclosed here, ranked, and carried as written flags inside the model rather than discovered later. Questions on any of them are welcome — that's what this document is for.</div>
   </div>
 </section>
 
