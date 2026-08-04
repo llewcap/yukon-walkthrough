@@ -22,7 +22,7 @@
   header.hero{background:var(--card);border-bottom:3px solid var(--navy);padding:34px 20px 26px}
   .wrap{max-width:1040px;margin:0 auto}
   .hero h1{font-size:26px;color:var(--navy);letter-spacing:.01em}
-  .hero .thesis{font-size:15px;color:var(--muted);margin:8px 0 18px;max-width:760px}
+  .hero .thesis{font-size:15px;color:var(--muted);margin:8px 0 18px;text-align:justify}
   .metrics{display:flex;flex-wrap:wrap;gap:10px}
   .metric{background:var(--fill);border:1px solid var(--line);border-radius:6px;padding:10px 16px;flex:1 1 130px;min-width:130px}
   .metric b{display:block;font-family:var(--mono);font-size:19px;color:var(--navy);font-variant-numeric:tabular-nums}
@@ -91,7 +91,7 @@
 <nav class="toc" aria-label="Sections"><div class="inner">
   <a href="#s1">Overview</a><a href="#s2">TIF</a><a href="#s3">Bond</a><a href="#s4">Cap discipline</a>
   <a href="#s5">Land</a><a href="#s6">Incentives</a><a href="#s7">Portfolio</a><a href="#s8">Sources &amp; Uses</a>
-  <a href="#s9">Calls</a><a href="#s10">Exit &amp; waterfall</a><a href="#s11">Sensitivities</a><a href="#s12">Diligence</a>
+  <a href="#s9">Calls</a><a href="#s10">Exit &amp; waterfall</a><a href="#s12">Diligence</a>
 </div></nav>
 
 <main>
@@ -122,8 +122,8 @@
       <tr><td>Bonded increment (2027 issuance)</td><td class="num">$102,369,518</td><td>Future increment monetized; services the bond 2027–2051</td></tr>
       <tr><td>Residual increment during the hold</td><td class="num">$6,659,503</td><td>Feeds the per-lot incentive program (Section 6)</td></tr>
     </table>
-    <details><summary>Why the city participates</summary><div class="d">The increment does not exist without the development. In exchange for sharing taxes that would otherwise never occur, the city receives a $44.9M youth facility, an $8.3M parking garage, and $17.9M of infrastructure — plus the permanent post-2051 tax base. The state's LEVERAGE Act match supplements local increment; the pledge of that match to the bond is a key confirmation item (Section 12).</div></details>
-    <p>Costco is the district's engine: it owns its parcel and pays no rent — its contribution is increment, modeled on <span class="num">$160M</span> of annual taxable sales and driving roughly <b>72% of district TIF</b>. Costco opens 2029; its increment lands in 2030, which shapes the bond structure below. Substantiation of the sales assumption is a pre-closing diligence item (Section 12).</p>
+    <details><summary>Why the city participates</summary><div class="d">The increment does not exist without the development. In exchange for sharing taxes that would otherwise never occur, the city receives a $44.9M youth facility, an $8.3M parking garage, and $17.9M of infrastructure — plus the permanent post-2051 tax base.</div></details>
+    <p>Costco is the district's engine: it owns its parcel and pays no rent — its contribution is increment, modeled on <span class="num">$160M</span> of annual taxable sales and driving roughly <b>72% of district TIF</b>. Costco opens 2029; its increment lands in 2030, which shapes the bond structure below. Substantiation of the sales assumption is a pre-closing diligence item (see Diligence status).</p>
   </div>
 </section>
 
@@ -153,7 +153,8 @@
     </div>
     <details><summary>Why the bond carries $10.8M of capitalized interest</summary><div class="d">The buildings that generate the increment don't exist in 2027–29 — native TIF coverage in the trough year is ~0.26x. The bond therefore borrows its own early interest at closing and draws the fund down to hold every year at exactly 1.25x coverage until Costco's increment arrives in 2030, after which the bond is self-supporting from revenue. This is the standard structure for revenue bonds whose revenue source is under construction. It is sized precisely to 1.25x with no additional cushion — a deliberate efficiency with a corresponding risk noted in Section 11.</div></details>
     <details><summary>Why principal is "sculpted"</summary><div class="d">Repayment isn't level: each year's principal is shaped pro-rata to that year's projected increment — light in 2027–29, heavier after 2030. Total debt service over the life is $178.3M ($75.9M of it interest), fully retired by district end in 2051. The 25-year term exists because the revenue arrives late; a shorter bond could not carry this par.</div></details>
-    <div class="note">The 4% reserve figure is built on the assumption of a <b>surety policy</b> in place of a cash-funded debt-service reserve. Obtaining a surety indication through ODFA is confirmation item #4.</div>
+    <div class="note">The 4% reserve figure is built on the assumption of a <b>surety policy</b> in place of a cash-funded debt-service reserve. Obtaining a surety indication through ODFA is confirmation item #3.</div>
+    <details><summary>What the infrastructure allocation covers</summary><div class="d">Total infrastructure hard cost is <span class="num">$17.9M</span>. The city's <span class="num">$8.0M</span> frontload and a <span class="num">$0.5M</span> baseball-field donation cover part of it, leaving roughly <span class="num">$9.4M</span> of remaining cost the bond must fund. The allocation is set at <span class="num">$10.5M</span>; the ~$1.1M above hard cost flows to PREF Alpha as equity relief — a disclosed element of the bond sizing.</div></details>
   </div>
 </section>
 
@@ -293,36 +294,19 @@
   </div>
 </section>
 
-<section id="s11">
-  <div class="shead"><h2>What moves the number</h2><span class="tag">Sensitivities</span></div>
-  <div class="sbody">
-    <p>The 2.62x is the model's output if the inputs hold. These are the levers, from analyses run on this model family:</p>
-    <table>
-      <tr><th>Lever</th><th>Approximate effect</th></tr>
-      <tr><td>Surety reserve vs cash-funded reserve</td><td>≈ one full turn of MOIC (below the 2.0x floor in the cash case)</td></tr>
-      <tr><td>NNN expense recovery vs landlord-absorbed opex</td><td>≈ one full turn of MOIC</td></tr>
-      <tr><td>Infrastructure allocation $9.4M ↔ $12M (equity $25.8M ↔ $23.2M)</td><td>MOIC 2.53x ↔ 2.79x — the equity dial</td></tr>
-      <tr><td>Land bridge 0% ↔ 65% LTV</td><td>IRR ~17% ↔ ~34% (timing of the 2026 call; MOIC largely unchanged)</td></tr>
-      <tr><td>McBride rent at $35 vs $42</td><td>≈ $10M off gross exit value; MOIC toward ~2.2–2.3x</td></tr>
-    </table>
-    <details><summary>What the infrastructure allocation is, and why it's a dial</summary><div class="d">The bond sets aside an allocation for infrastructure. Actual remaining infrastructure hard cost is <span class="num">$17.9M</span>, of which the <span class="num">$8.0M</span> city frontload and a <span class="num">$0.5M</span> baseball-field donation cover part — leaving roughly <span class="num">$9.4M</span> of true remaining cost the bond must fund. The model currently allocates <span class="num">$10.5M</span>, so only ~$1.1M sits above actual need. That gap is the lever: sizing the allocation <i>above</i> $9.4M raises more bond, which flows to PREF Alpha and reduces the equity check; sizing it <i>at</i> $9.4M is the floor (zero surplus, maximum equity). Moving it across the $9.4M–$12M range trades equity for bond — equity $25.8M down to $23.2M, MOIC 2.53x up to 2.79x. It is the primary control for tuning the equity check against the cap, and the current $10.5M setting keeps total TIF to developer purposes comfortably inside the $200M ceiling.</div></details>
-  </div>
-</section>
-
 <section id="s12">
   <div class="shead"><h2>Diligence status — open confirmations, ranked</h2><span class="tag">Pre-closing roadmap</span></div>
   <div class="sbody">
     <p>The model's arithmetic is verified: an eleven-check audit chain reconciles to zero (sources = uses, waterfall to $0, land ledger, bond solver convergence, incentive funding ledger), zero formula errors across ~4,200 formulas, and IRR/MOIC are replicated independently outside the workbook. The items below are the <b>inputs</b> awaiting confirmation, ranked by exposure — each carries a confirmation path, and several are flagged in red inside the model itself.</p>
     <table>
       <tr><th>#</th><th>Item</th><th>Exposure if adverse</th><th>Confirmation path</th></tr>
-      <tr><td>1</td><td>LEVERAGE Act match pledgeable to the bond</td><td>Bond capacity roughly halves; restructure</td><td>ODFA / bond counsel opinion</td></tr>
-      <tr><td>2</td><td>Project Plan authorizes the incentive category (land + TI, private vertical)</td><td>$15.4M program mechanics</td><td>PFLG drafting confirmation</td></tr>
-      <tr><td>3</td><td>Costco taxable sales ($160M, ~72% of district TIF)</td><td>Bond resizes at underwriting</td><td>Sales substantiation pre-application</td></tr>
-      <tr><td>4</td><td>Surety availability at ~4% of par</td><td>≈ one turn of MOIC</td><td>Surety indication via ODFA channel</td></tr>
-      <tr><td>5</td><td>McBride rent $42/SF on 110,558 SF (~40% of exit value)</td><td>MOIC toward ~2.2x at $35</td><td>LOI / lease verification</td></tr>
-      <tr><td>6</td><td>Lease structures confirm NNN with recovery</td><td>≈ one turn of MOIC</td><td>Lease abstract review</td></tr>
-      <tr><td>7</td><td>Track 31 cost, acreage, leverage</td><td>Lot-level; contained</td><td>Civil site plan + GC budget</td></tr>
-      <tr><td>8</td><td>Costco parcel FMV at $15/SF</td><td>Rebate reprices</td><td>Independent appraisal</td></tr>
+      <tr><td>1</td><td>Project Plan authorizes the incentive category (land + TI, private vertical)</td><td>$15.4M program mechanics</td><td>PFLG drafting confirmation</td></tr>
+      <tr><td>2</td><td>Costco taxable sales ($160M, ~72% of district TIF)</td><td>Bond resizes at underwriting</td><td>Sales substantiation pre-application</td></tr>
+      <tr><td>3</td><td>Surety availability at ~4% of par</td><td>≈ one turn of MOIC</td><td>Surety indication via ODFA channel</td></tr>
+      <tr><td>4</td><td>McBride rent $42/SF on 110,558 SF (~40% of exit value)</td><td>MOIC toward ~2.2x at $35</td><td>LOI / lease verification</td></tr>
+      <tr><td>5</td><td>Lease structures confirm NNN with recovery</td><td>≈ one turn of MOIC</td><td>Lease abstract review</td></tr>
+      <tr><td>6</td><td>Track 31 cost, acreage, leverage</td><td>Lot-level; contained</td><td>Civil site plan + GC budget</td></tr>
+      <tr><td>7</td><td>Costco parcel FMV at $15/SF</td><td>Rebate reprices</td><td>Independent appraisal</td></tr>
     </table>
   </div>
 </section>
